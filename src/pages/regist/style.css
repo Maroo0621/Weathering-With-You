@@ -53,6 +53,21 @@
   outline: none;
   box-shadow: 0px 0px 12px 0.8px #3474dbb2;
 }
-.base-container .footer {
-  margin-top: 3em;
+.base-container .flex-container .footer {
+  margin-top: 10px;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+
+.base-container .pop a {
+  font-family: 'EB Garamond', serif;
+  color: black;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 20px;
+  float: right;
+  
 }
